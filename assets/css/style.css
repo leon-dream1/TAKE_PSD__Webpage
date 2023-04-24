@@ -1,0 +1,325 @@
+
+/*Common Css Part Start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+     margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, h7{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+    color:#000000;
+    cursor: pointer;
+}
+img{
+    vertical-align: middle;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*Common Css Part End*/
+
+.back_to_top{
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
+    display: none;
+}
+
+/*Header part Css Start*/
+.header{
+    background: url(../image/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_con{
+    padding: 40px 0;
+}
+.header_con p{
+    font-family: 'Merriweather', serif; 
+    font-size: 21px;
+}
+.header_part_main{
+    padding: 300px 0 610px 0;
+}
+.header_part_main h1{
+    font-size: 40px;
+    font-weight: 100 ;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.header_part_main p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff;
+}
+/*Header part Css end*/
+
+/*Something New part Css Start*/
+.something_new{
+    padding: 40px 0;
+}
+
+.something_new_main h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #222626;
+    padding-bottom: 25px;
+}
+.something_new_main p{
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*Something New part Css End*/
+
+/*Design part Css Start*/
+.design_main .bg_1{
+    background: #f5979c;
+}
+.design_main .bg_2{
+    background: #615e7d;
+ }
+.design_main .bg_3{
+    background: url(../image/clients1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .design_main .bg_4{
+    background: url(../image/clients2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .design_main .bg_5{
+     background: #81c99c;
+ }
+.new_con h2{
+    padding: 40px 0px 30px 30px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.new_con p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px 40px 30px;
+    line-height: 30px;
+}
+.new_con a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.new_con a i{
+    padding: 5px;
+}
+/*Design part Css End*/
+
+
+/*Look part Css Start*/
+
+.look_part h2{
+    color: #222626;
+    padding: 10px 0 60px 0;
+    font-size: 40px;
+}
+.look_con h6{
+    color: #67676d;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+.look_con p{
+    color: #959595;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+/*Look part Css End*/
+
+/*Power part Css Start*/
+.power_section{
+    background: url(../image/power.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.power_section_main{
+    padding-top: 420px;
+    padding-bottom: 50px;
+}
+.power_section_main h2{
+    font-size: 61px;
+    font-weight: 100;
+}
+.power_section_main h2:nth-child(2){
+    padding-bottom: 39px;
+}
+.power_section_main p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-bottom: 20px;
+    opacity: .5;
+ }
+ .power_section_main a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 50px;
+    display: inline-block;
+ }
+.power_section_main a i{
+    padding: 5px;
+}
+/*Power part Css End*/
+
+/*Reason section part Css Start*/
+.reasons_section{
+    background: #81c99b;
+    padding-top: 60px;
+}
+.reasons_section h2{
+    padding: 10px 0 60px 0;
+    font-size: 40px;
+}
+.reason_con h6{
+    color:#fff !important;
+    font-weight: bold;
+}
+.reason_con p{
+    color:#fff !important;
+    font-weight: 100;
+}
+/*Reason section part Css End*/
+
+/*Team section part Css Start*/
+.team_part{
+    padding-top: 60px;
+}
+.team_con{
+    padding: 50px;
+    transition: .4s;
+}
+.team_con h6{
+    font-size: 11px;
+    font-weight: bolder;
+    color: #fff;
+    background: #e1e1e1;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+.team_con h3{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2e3b4e;
+    display: block;
+    padding: 20px 0;
+}
+.team_con p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #8297a7;
+    padding-bottom: 22px;
+    line-height: 35px;
+}
+.team_con a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #81c99b;
+}
+.team_icon i{
+    color: #c5c5c5;
+}
+.team_con .purple{
+    background: #bd8bbf;
+}
+.team_con:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*Team section part Css End*/
+
+
+/*Contact section part Css Start*/
+.contact_part{
+    background: #192331;
+    padding: 80px 0;
+}
+.contact_con{
+    padding: 50px;
+    position: relative;
+}
+.contact_con h6{
+    font-weight: 500;
+    font-size: 15px;
+    color: #f6f7fa;
+    padding-bottom: 25px;
+}
+.contact_con p{
+    font-weight: 300;
+    font-size: 13px;
+    color: #f6f7fa;
+    padding-bottom: 45px;
+    line-height: 31px;
+}
+.contact_link .link ul a{
+    color: #f6f7fa;
+    opacity: .5;
+    font-size: 13px;
+    padding: 5px 0;
+    display: block;
+}
+.contact_con input{
+    width: 100%;
+    height: 60px;
+}
+.contact_con .icon i{
+    height: 60px;
+    width: 67px;
+    background: #81c99b;
+    padding: 10px;
+    line-height: 40px;
+    position: absolute;
+    top: 93px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.contact_con p{
+    color: #57697f;
+    font-size: 13px;
+    padding-top: 10px;
+}
+/*Contact section part Css End*/
+
+
+/*Footer section part Css Start*/
+footer{
+    background: #000;
+    padding: 20px 0;
+}
+/*Footer section part Css End*/
